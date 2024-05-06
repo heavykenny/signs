@@ -1,0 +1,4 @@
+.ipynb_checkpoints
+static/images/*png
+build/*keras
+datasets/*
