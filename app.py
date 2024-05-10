@@ -11,7 +11,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 base_path = os.path.dirname(os.path.abspath(__file__))
 
-model_path = 'build/traffic_sign_model2.keras'
+model_path = 'build/_traffic_sign_model.keras'
 model = keras.models.load_model(model_path)
 
 csv_path = os.path.join(base_path, f"{base_path + '/datasets/Meta.csv'}")  # Update with your actual CSV file path
